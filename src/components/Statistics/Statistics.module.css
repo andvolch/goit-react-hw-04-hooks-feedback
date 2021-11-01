@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.item {
+  display: flex;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  margin: 5px 10px;
+  font-weight: 700;
+}
