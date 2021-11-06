@@ -41,7 +41,10 @@ function App() {
   return (
     <div>
       <Section title="Please leave a feedback">
-        <FeedbackOptions options={options} handleFeedback={handleFeedback} />
+        <FeedbackOptions 
+          options={options} 
+          handleFeedback={handleFeedback} 
+        />
       </Section>
 
       <Section title="Statistics">
@@ -55,6 +58,6 @@ function App() {
       </Section>
     </div>
   );
-}
+};
 
 export default App;
